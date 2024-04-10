@@ -1,0 +1,156 @@
+.main{
+  margin-left: 460px;
+  width: 25%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  color: #1D2226;
+  font-family: Rubik;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  opacity: 1;
+}
+.main2{
+  margin-left: 460px;
+  width: 25%;
+  height: 500px;
+  /* border: 1px solid rgb(185, 181, 181); */
+  display: flex;
+  /* justify-content: flex-end; */
+  flex-direction: column;
+  background: #F7F8F9 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  color: #1D2226;
+  font-family: Rubik;
+  /* padding-bottom: 20px; */
+  padding-left: 20px;
+}
+
+.btn1{
+  background-color:#6C25FF ;
+  height: 30px;
+  width: 200px;
+  margin-left: 40px;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  color: #F7F8F9;
+
+}
+.btn2{
+  background-color: #6C25FF4B;
+  height: 30px;
+  width: 200px;
+  margin-left: 40px;
+  border-style: none;
+  font: normal normal normal 14px/22px Rubik;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn3{
+  background-color: #6C25FF4B;
+  height: 30px;
+  width: 250px;
+  margin-left: 20px;
+  border-style: none;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #CBCBCB 0% 0% no-repeat padding-box;
+
+}
+/* p{
+  color: gray;
+} */
+.link{
+  text-decoration: none;
+  color: #F7F8F9;
+  
+}
+.link2{
+  text-decoration: none;
+  color: #1D2226;
+  font: normal normal medium 16px/17px Rubik;
+  opacity: 1;
+  letter-spacing: 0px;
+
+ 
+}
+.opec{
+  color: #1D2226;
+  opacity: 0.6;
+
+}
+h1{
+  color: #1D2226;
+  opacity: 1;
+  font: normal normal medium 28px/36px Rubik;
+
+  letter-spacing: 0px;
+  }
+  
+/* media query========================= */
+
+@media (max-width: 767px) {
+  .main{
+      width: 100%;
+      height: auto;
+      margin-left: 160px;
+
+  }
+  input{
+      width: 150px;
+      font-size: 10px;
+      margin: 0px;
+      border: 1px solid #CBCBCB;
+      border-radius: 6px;
+      opacity: 1;
+
+
+  }
+  .btn1{
+      width: 150px ;
+      margin: 3px;
+  }
+  .btn2{
+      width: 150px ;
+      margin: 3px;
+  }
+  .btn3{
+      width: 150px ;
+      margin: 3px;
+  }
+
+
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main{
+      width: 25%;
+      height: 500px;
+      margin-left: 10px;
+
+  }
+  input{
+      width: 150px;
+      font-size: 10px;
+      margin: 0px;
+
+  }
+  .btn1{
+      width: 150px ;
+      margin: 3px;
+  }
+  .btn2{
+      width: 150px ;
+      margin: 3px;
+  }
+  .btn3{
+      width: 150px ;
+      margin: 3px;
+  }
+  
+}
